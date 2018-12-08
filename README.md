@@ -1,7 +1,7 @@
-#Slim Framework + Angular
+# Slim Framework + Angular
 Use this repository if you would like to start your project with Slim Framework using PHP and Angular for the frontend.
 
-##Prerequisites
+## Prerequisites
 * Docker *(Optional)*
 * Docker Compose *(Optional)*
 * PHP 7.0+
