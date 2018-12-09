@@ -31,5 +31,5 @@ services:
 #### 3. Scaffold Application
 Run the following command from the repository directory to have Docker create the necessary Apache+PHP and MySQL containers.
 ```shell
-docker-compose up
+docker-compose up -d
 ```
