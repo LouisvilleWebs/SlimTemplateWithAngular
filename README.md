@@ -33,3 +33,9 @@ Run the following command from the repository directory to have Docker create th
 ```shell
 docker-compose up -d
 ```
+
+#### 4. Install PHP Project Dependencies
+Run the following command on your terminal
+```shell
+docker exec <container_name> composer install
+```
