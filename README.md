@@ -7,6 +7,7 @@ Use this repository if you would like to start your project with Slim Framework 
 * PHP 7.0+
 * MySQL
 * Angular CLI
+* MySQL Workbench
 
 We recommend that you use our docker image instead of trying to manage everything on your own. With our docker image, you can get up and running in minutes.
 
