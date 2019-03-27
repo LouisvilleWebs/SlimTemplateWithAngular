@@ -13,6 +13,6 @@ gulp.task('copy-index', function(){
 });
 
 gulp.task('watch', function(){
-    gulp.watch('./dist/angular/index.html', gulp.series(['copy-index']));
-    gulp.watch(['./dist/angular/**/*','!./dist/angular/index.html'], gulp.series(['copy-assets']));
+    gulp.watch('./dist/angular/index.html',{ delay: 2000}, gulp.series(['copy-index']));
+    gulp.watch(['./dist/angular/**/*','!./dist/angular/index.html'],{ delay: 2000}, gulp.series(['copy-assets']));
 });
