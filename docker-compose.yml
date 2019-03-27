@@ -2,11 +2,11 @@ version: '3'
 
 services:
   website:
-    image: slimtest
+    build: .
     volumes:
       - ./:/var/www/html
     ports:
-      - 5000:80
+      - 5011:80
     links:
       - db
 
@@ -16,4 +16,4 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=secret
     ports:
-      - 5001:3306
+      - 5010:3306

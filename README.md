@@ -39,3 +39,10 @@ Run the following command on your terminal
 ```shell
 docker exec <container_name> composer install
 ```
+
+### 5. Run Builds
+Run the following commands from the root of the angular folder.
+```shell
+ng build --watch
+gulp watch
+```
