@@ -6,7 +6,7 @@ services:
     volumes:
       - ./:/var/www/html
     ports:
-      - 5011:80
+      - 5013:80
     links:
       - db
 
@@ -16,4 +16,4 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=secret
     ports:
-      - 5010:3306
+      - 5012:3306

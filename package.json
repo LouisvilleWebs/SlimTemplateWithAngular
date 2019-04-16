@@ -1,0 +1,27 @@
+{
+  "name": "peoplehound",
+  "version": "1.0.0",
+  "description": "Use this repository if you would like to start your project with Slim Framework using PHP and Angular for the frontend.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisvilleWebs/SlimTemplateWithAngular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisvilleWebs/SlimTemplateWithAngular/issues"
+  },
+  "homepage": "https://github.com/LouisvilleWebs/SlimTemplateWithAngular#readme",
+  "devDependencies": {
+    "bower": "^1.8.8",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "main-bower-files": "^2.13.1"
+  }
+}
